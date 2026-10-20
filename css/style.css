@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F8F8F8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+header {
+        background-color: #F8F8F8;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+#logo img {
+    height: 120px;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+
+#menu-inicio a {
+    color:black;
+    text-underline-offset: 0px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+}
+
+.texto-pequeno {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-small;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black;
+}
+
+#slogan {
+    background-color:#dd425c;
+    padding-left: 25px;
+    justify-content:space-between;
+    align-items: center;
+    display:flex;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+#slogan h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#ir-para-serviços {
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    padding:8px;
+    border-style: solid;
+    font-weight:bold;
+    gap:15px;
+}
+
+#ir-para-servicos a:hover {
+    color: #f1e4e4 ;
+}
+
+#slogan img {
+    width: 450px;
+    height: 450px;
+}
+
+#servicos {
+    padding: 20px;
+}
+
+#sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre {
+    width: 31.5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3dbdb;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #c5a9a9;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+#ver_
