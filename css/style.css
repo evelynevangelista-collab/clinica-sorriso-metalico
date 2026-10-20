@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #F8F8F8;
+    background-color: #F8FAFC;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
 header {
-        background-color: #F8F8F8;
+        background-color: ;
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -58,7 +58,7 @@ a {
 }
 
 #slogan {
-    background-color:#dd425c;
+    background-color:#077292;
     padding-left: 25px;
     justify-content:space-between;
     align-items: center;
