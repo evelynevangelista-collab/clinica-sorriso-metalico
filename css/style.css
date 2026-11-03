@@ -1,16 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: #F8F8F8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-}
 
 header {
-        background-color: #F8F8F8;
+        background-color: #0B4F6C;
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -18,47 +9,46 @@ header {
         padding-right: 20px;
         align-items: center;
 }
-
 a {
     text-decoration: none;
-    color: black;
+    color: #6B7280;
+    background-color:rgb(133, 165, 192);
+    font-weight: bold;
+    padding:10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(243, 243, 236);
 }
-
 #logo {
     display: flex;
     align-items: center;
     font-weight: bold;
-    color: black;
+    color: #F8FAFC ;
 }
-
 #logo img {
     height: 120px;
 }
-
 #menu {
     color: white;
     display: flex;
     gap: 30px;
     font-weight: bold;
 }
-
 #menu-inicio a {
     color:black;
     text-underline-offset: 0px;
     text-decoration:underline;
     text-decoration-thickness: 2px;
 }
-
 .texto-pequeno {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size:x-small;
     font-weight: bold;
     text-transform: uppercase;
     color:black;
 }
-
 #slogan {
-    background-color:#dd425c;
+    background-color:#F8FAFC;
     padding-left: 25px;
     justify-content:space-between;
     align-items: center;
@@ -66,35 +56,21 @@ a {
     margin-bottom: 15px;
     gap: 15px;
 }
-
 #slogan h1 {
     font-size: 50px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-
-#ir-para-serviços {
-    background-color: #F8F8F8;
-    border-radius: 20px;
-    padding:8px;
-    border-style: solid;
-    font-weight:bold;
-    gap:15px;
-}
-
-#ir-para-servicos a:hover {
+#ir-para-introducao a:hover {
     color: #f1e4e4 ;
 }
-
 #slogan img {
     width: 450px;
     height: 450px;
 }
-
-#servicos {
+#introducao {
     padding: 20px;
 }
-
 #sobre {
     display: flex;
     flex-wrap: wrap;
@@ -103,23 +79,73 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .sobre {
     width: 31.5%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #f3dbdb;
+    background-color: #eeeeee;
     border-radius: 20px;
     border-style: solid;
-    border-color: #c5a9a9;
+    border-color: #E5E7EB;
     padding: 20px;
     text-align: center;
 }
-
+.emoji {
+    font-size: 80px;
+}
 .sobre p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5px;
 }
+#galeria {
+    text-align: center;
+    background-color: rgba(241, 248, 252, 0.7);
+    padding:20px;
+}
+#galeria a:hover {
+    color:rgb(231, 231, 231);
+}
+#galeria  {
 
-#ver_
+    margin-bottom: 20px;
+}
+.table {
+
+   width: 95%;
+   margin: 20px auto;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #fffdfe;
+   box-shadow: 4px;
+   border-radius: 10px;
+}
+thead {
+    background-color:#1089b9;
+    color:rgb(202, 196, 196);
+}
+thead th {
+    padding: 14px;
+    text-align: left;
+    font-size: 16px;
+}
+tbody td{
+    padding: 12px;
+    border-bottom: 1px;
+}
+tbody tr {
+    background-color:#9CA3AF;
+}
+td {
+    font-weight: bold;
+    color:black;
+}
+footer {
+    background-color:#9CA3AF;
+    justify-content: space-between;
+    color:black;
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    line-height: 1.2;
+}
+}
